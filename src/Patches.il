@@ -20,7 +20,7 @@
         )
     {
 
-		ldsfld class [BepInEx]BepInEx.Logging.ManualLogSource ILPlugin::Logger
+        ldsfld class [BepInEx]BepInEx.Logging.ManualLogSource ILPlugin::Logger
         ldstr "Hello from InitializeGame.Awake Hook from ILPlugin!"
         callvirt instance void [BepInEx]BepInEx.Logging.ManualLogSource::LogInfo(object)
 
