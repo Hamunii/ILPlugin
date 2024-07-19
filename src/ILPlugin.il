@@ -11,16 +11,15 @@
         2e 30 00 00
     )
 
-    .field static class [BepInEx]BepInEx.Logging.ManualLogSource Logger
-
     .method public hidebysig specialname rtspecialname
         instance void .ctor()
     {
         ldarg.0
         call instance void [BepInEx]BepInEx.BaseUnityPlugin::.ctor()
-
         ret
     }
+
+    .field static class [BepInEx]BepInEx.Logging.ManualLogSource Logger
 
     .method void Awake()
     {        

@@ -10,6 +10,7 @@
         )
         newobj instance void ['MMHOOK_Assembly-CSharp']On.InitializeGame/hook_Awake::.ctor(object, native int)
         call void ['MMHOOK_Assembly-CSharp']On.InitializeGame::add_Awake(class ['MMHOOK_Assembly-CSharp']On.InitializeGame/hook_Awake)
+
         ret
     }
 
