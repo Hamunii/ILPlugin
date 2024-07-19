@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.IL">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <AssemblyName>Hamunii.ILPlugin</AssemblyName>
+        <MicrosoftNetCoreIlasmPackageVersion>6.0.0</MicrosoftNetCoreIlasmPackageVersion>
+        <IlasmFlags>$(IlasmFlags) -INCLUDE=./src/</IlasmFlags>
+    </PropertyGroup>
+
+</Project>
