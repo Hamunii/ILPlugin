@@ -7,8 +7,8 @@
     // [BepInPlugin("Hamunii.ILPlugin", "ILPlugin", "1.0.0")]
     .custom instance void [BepInEx]BepInEx.BepInPlugin::.ctor(string, string, string) = (
         01 00 10 48 61 6d 75 6e 69 69 2e 49 4c 50 6c 75
-		67 69 6e 08 49 4c 50 6c 75 67 69 6e 05 31 2e 30
-		2e 30 00 00
+        67 69 6e 08 49 4c 50 6c 75 67 69 6e 05 31 2e 30
+        2e 30 00 00
     )
 
     .field static class [BepInEx]BepInEx.Logging.ManualLogSource Logger
